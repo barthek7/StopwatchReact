@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.controls {
+  background-color: #607D8B;
+  color: #B9B9B9;
+}
+.controls > a {
+  text-decoration: none;
+  font-size: 2vh;
+  margin: 20px;
+}
+.controls > a:visited {
+  color: #B9B9B9;
+  cursor: pointer;
+}
+
+div.display {
+  font-size: 10vh;
+  background-color: #607D8B;
+  color: #B9B9B9;
+}
